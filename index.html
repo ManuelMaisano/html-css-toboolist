@@ -1,11 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <title>Toboolist</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
-    
+    <header>
+        <div>
+            <img src="./image/logo.png" alt="">
+            <h1>Toboolist</h1>
+        </div>
+
+    </header>
+    <main>
+        <div class="page-main">
+            <button class="bg-blue slot-list slot-top">Add Task</button>
+            <button class="slot-list slot-grey">Add Section</button>
+        </div>
+        <br>
+        <!-- list 1 -->
+        <div class="list-alpha">
+            <ul>
+                <li class="list-beta">&#9660;New Task</li>
+                <li> <span class="ceck-point">&check; </span> Quarterly Newsletter <button class="bg-blue slot-list">Editorial<button></li>
+            </ul>
+            <!-- list 2 -->
+            <ul>
+                <li class="list-beta">&#9660;Today</li>
+                <li><span class="ceck-point">&check; </span> Recruiting blog post <button class="slot-list bg-blue">Editorial</button>
+                </li>
+                <li><span class="ceck-point">&check; </span> Mobile app launch <button class="slot-list bg-violet">Q1 Goals</button>
+                </li>
+                <li><span class="cross-point">&cross;</span> Interview John H. <button class="slot-list bg-green">Recruiting</button>
+                </li>
+                <li><span class="ceck-point">&check; </span> Summit update to mobile storefronts <button class="slot-list bg-orange">mobile</button></li>
+            </ul>
+            <!-- list 3 -->
+            <ul>
+                <li class="list-beta">&#9660;Upcoming</li>
+                <li> <span class="cross-point">&cross;</span> Schedule meeting with Alex</li>
+                <li><span class="ceck-point">&check; </span> Homepage refresh <button class="slot-list bg-fuxia">Website</button></li>
+                <li><span class="ceck-point">&check; </span> onboard new Sales team members <button class="slot-list bg-lime">Sales</button></li>
+                <li><span class="ceck-point">&check; </span> Review editorial calendar <button class="slot-list bg-blue">Editorial</button></li>
+            </ul>
+
+        </div>
+
+    </main>
+
 </body>
+
 </html>
